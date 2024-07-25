@@ -1,0 +1,29 @@
+.profile {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.img {
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: #2a2a2a;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
