@@ -1,0 +1,24 @@
+.cardFriend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.img {
+  width: calc(100% / 1.5);
+}
+.textName {
+  font-size: 30px;
+  font-weight: bold;
+}
+.online {
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
+}
+.offline {
+  color: brown;
+  font-size: 30px;
+  font-weight: bold;
+}
